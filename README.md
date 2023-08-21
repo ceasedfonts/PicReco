@@ -9,6 +9,10 @@ If not, simply use:
 
 If you want to build upon this code and are using VS Code, like I do, you can use the configuration inside the launch.json in this repository to use the VS Code debugger to debug your streamlit apps.
 
+To run this app, use:
+`streamlit run YOUR_APP_NAME.py` 
+in your terminal
+
 ## Understanding Google's ViT Model
 
 Google's ViT (Vision Transformer) is a sophisticated image understanding program. Imagine it as a bright student that excels at comprehending images. Let's break down how it works:
