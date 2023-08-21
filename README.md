@@ -1,3 +1,14 @@
+## How to use
+
+Make sure you have Streamlit, transformers and PyTorch installed.
+
+If not, simply use:
+`pip install streamlit`
+`pip install transformers`
+`pip install torch`
+
+If you want to build upon this code and are using VS Code, like I do, you can use the configuration inside the launch.json in this repository to use the VS Code debugger to debug your streamlit apps.
+
 ## Understanding Google's ViT Model
 
 Google's ViT (Vision Transformer) is a sophisticated image understanding program. Imagine it as a bright student that excels at comprehending images. Let's break down how it works:
