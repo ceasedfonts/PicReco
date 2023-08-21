@@ -25,6 +25,6 @@ if image is not None:
     top_p, top_class = prob.topk(3, dim = 1) # topk(3, dim = 1) is used to get the top 3 predictionsround(top_p[0][0].item(), 2)
 
     st.markdown("<h2 style='text-align: center; color: white;'>Top 3 Classifications and Probabilities</h2>", unsafe_allow_html = True)
-    st.text(model.config.id2label[predicted_class_idx] + ' with probability ' + str(round(top_p[0][0].item(), 2)))
-    st.text(model.config.id2label[top_class[0][1].item()] + ' with probability ' + str(round(top_p[0][1].item(), 2)))
-    st.text(model.config.id2label[top_class[0][2].item()] + ' with probability ' + str(round(top_p[0][2].item(), 2)))
+    st.text(model.config.id2label[predicted_class_idx] + ' - with a probability of: ' + str(round(top_p[0][0].item(), 2)))
+    st.text(model.config.id2label[top_class[0][1].item()] + ' - with a probability of: ' + str(round(top_p[0][1].item(), 2)))
+    st.text(model.config.id2label[top_class[0][2].item()] + ' - with a probability of: ' + str(round(top_p[0][2].item(), 2)))
