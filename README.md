@@ -11,7 +11,7 @@ If you want to build upon this code and are using VS Code, like I do, you can us
 
 To run this app, use:
 `streamlit run YOUR_APP_NAME.py` 
-in your terminal
+from your app folder in your terminal
 
 ## Understanding Google's ViT Model
 
