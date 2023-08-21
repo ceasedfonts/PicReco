@@ -1,11 +1,13 @@
 ## How to use
 
-Make sure you have Streamlit, transformers and PyTorch installed.
+Make sure you have Streamlit and PyTorch installed.
 
 If not, simply use:
 `pip install streamlit`
-`pip install transformers`
 `pip install torch`
+
+In addition, to download and work with the model, we are using the Transformers package from the great people at https://huggingface.co 🤗.
+`pip install transformers`
 
 If you want to build upon this code and are using VS Code, like I do, you can use the configuration inside the launch.json in this repository to use the VS Code debugger to debug your streamlit apps.
 
