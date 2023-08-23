@@ -42,3 +42,5 @@ Here's how it works:
 - **Data Comes to Life**: Let's say you've got data that you want to share with others. Instead of sending them static charts or asking them to run your code, you create a Streamlit app. They can interact with your data, change parameters, and see results in real time—all through a web browser.
 
 In simple words, Streamlit turns your Python scripts into live web apps that people can use without needing to be coding pros. It's like having a superpower to share your data stories with the world!
+
+![Alt text](<Example.png>)
