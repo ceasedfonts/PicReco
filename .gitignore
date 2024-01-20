@@ -1,4 +1,4 @@
 # Distribution / packaging
 env/
-.vscode/
+.vscode
 .DS_Store
